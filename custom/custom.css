@@ -11982,6 +11982,16 @@ body {
           flex-direction: column;
 }
 
+.fondo1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  right: -200px;
+  background-image: url(../images/bg-top.svg);
+  height: 658px;
+  width: 375px;
+}
+
 header {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -12145,5 +12155,24 @@ input:checked + .slider:before {
 @media (min-width: 991px) {
   .card2 {
     height: 460px;
+  }
+
+  .fondo1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0px;
+    background-image: url(../images/bg-top.svg);
+    height: 100%;
+    width: 305px;
+  }
+
+  .fondo2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0px;
+    bottom: 0;
+    background-image: url(../images/bg-bottom.svg);
+    height: 304px;
+    width: 353px;
   }
 }
